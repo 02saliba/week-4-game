@@ -24,7 +24,7 @@ $( document ).ready(function(){
 
 			$("#one").on ("click", function(){
 				total += crystalNumber[0];
-				$(".yourScore").html(total);	
+				$(".yourScore").html("Your Current Total: " + total);	
 
 						if (total == randomNumber){
 							winner();
@@ -36,7 +36,7 @@ $( document ).ready(function(){
 
 			$("#two").on ("click", function(){
 				total += crystalNumber[1];
-				$(".yourScore").html(total);	
+				$(".yourScore").html("Your Current Total: " + total);	
 
 						if (total == randomNumber){
 							winner();
@@ -48,7 +48,7 @@ $( document ).ready(function(){
 
 			$("#three").on ("click", function(){
 				total += crystalNumber[2];
-				$(".yourScore").html(total);	
+				$(".yourScore").html("Your Current Total: " + total);	
 
 						if (total == randomNumber){
 							winner();
@@ -60,7 +60,7 @@ $( document ).ready(function(){
 
 			$("#four").on ("click", function(){
 				total += crystalNumber[3];
-				$(".yourScore").html(total);	
+				$(".yourScore").html("Your Current Total: " + total);	
 
 						if (total == randomNumber){
 							winner();
