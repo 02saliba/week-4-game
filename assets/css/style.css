@@ -1,0 +1,39 @@
+body{
+	background: url("../images/background.png");
+}
+
+.panel {
+	background-color: transparent;
+	color: antiquewhite;
+	font-family: 'Metamorphous', cursive;
+}
+
+.header {
+	color: #D78F4A;
+	font-family: 'Metamorphous', cursive;
+	font-size: 48px;
+	font-weight: bolder;
+	padding-top:25px;
+}
+
+img {
+	height:135px;
+	width:110px;
+}
+
+
+.winLoss {
+	color: #D78F4A;
+	font-size: 18px;
+	font-weight: bold;
+}
+.toGet{
+	color: #D78F4A;
+	font-size: 18px;
+	font-weight: bold;
+}
+.yourScore {
+	color: #D78F4A;
+	font-size: 18px;
+	font-weight: bold;
+}
